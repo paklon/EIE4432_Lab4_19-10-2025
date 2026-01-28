@@ -1,0 +1,26 @@
+{
+  "name": "23079398d_eie4432_lab4",
+  "version": "1.0",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon --watch 'src/**' --ext 'ts,js,json,mjs' --exec 'npm start'",
+    "format": "prettier --write .",
+    "lint": "eslint . --color --cache -f friendly --max-warnings 10"
+  },
+  "devDependencies": {
+    "@types/jquery": "^3.5.33",
+    "eslint": "^9.37.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-formatter-friendly": "^7.0.0",
+    "nodemon": "^3.1.10",
+    "prettier": "^3.6.2"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "express-session": "^1.18.2",
+    "express-sesssion": "^1.15.5",
+    "multer": "^2.0.2"
+  }
+}

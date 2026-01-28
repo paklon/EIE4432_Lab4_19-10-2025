@@ -1,0 +1,32 @@
+[
+  {
+    "username": "alice",
+    "password": "ecila",
+    "role": "user",
+    "enabled": true
+  },
+  {
+    "username": "bob",
+    "password": "bob1234",
+    "role": "user",
+    "enabled": false
+  },
+  {
+    "username": "janice",
+    "password": "ecinaj",
+    "role": "user",
+    "enabled": true
+  },
+  {
+    "username": "root",
+    "password": "root+pass",
+    "role": "admin",
+    "enabled": true
+  },
+    {
+    "username": "23079398d",
+    "password": "23079398d",
+    "role": "student",
+    "enabled": true
+  }
+]
